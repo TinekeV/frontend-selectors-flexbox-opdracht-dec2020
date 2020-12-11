@@ -1,3 +1,43 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+/*    OPDRACHT 2.1    */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/*    OPDRACHT 2.2    */
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*    OPDRACHT 2.3    */
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul > li {
+    justify-content: stretch;
+    justify-items: stretch;
+}
+
+/*    OPDRACHT 2.4    */
+
+/*    OPDRACHT 2.5    */
