@@ -18,36 +18,32 @@
     justify-content: space-between;
 }
 
-/*    OPDRACHT 2.3
+/*    OPDRACHT 2.3    */
 
 .three {
     display: flex;
-    justify-content: flex-end;
-    background-color: cadetblue;
-} */
+    justify-content: space-between;
+    align-items: baseline;
+}
 
-.three ul{
+.three ul {
     display: flex;
     list-style: none;
-    background-color: coral;
-    justify-content: space-between;
 }
 
-.item {
-    display: flex;
-    background-color: darkkhaki;
-
+ul li {
+    flex-basis: 120px;
+    flex-grow: 2;
+    flex-shrink: 0;
 }
 
 
-
-
-/*    OPDRACHT 2.4    */
+/*    OPDRACHT 2.4
 
 .four {
     display: flex;
     justify-content: center;
-/*    background-color: darkslategrey; */
+    background-color: darkslategrey;
 }
 
 #username {
@@ -57,5 +53,6 @@
 #password {
     display: flex;
 }
+*/
 
 /*    OPDRACHT 2.5    */
