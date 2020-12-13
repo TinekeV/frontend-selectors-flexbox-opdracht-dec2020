@@ -38,21 +38,20 @@ ul li {
 }
 
 
-/*    OPDRACHT 2.4
+/*    OPDRACHT 2.4  */
 
 .four {
     display: flex;
     justify-content: center;
-    background-color: darkslategrey;
 }
 
-#username {
+.four form{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#password {
-    display: flex;
-}
-*/
 
 /*    OPDRACHT 2.5    */
