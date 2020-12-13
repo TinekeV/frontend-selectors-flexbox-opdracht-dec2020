@@ -55,3 +55,16 @@ ul li {
 
 
 /*    OPDRACHT 2.5    */
+
+.five {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.five article {
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
